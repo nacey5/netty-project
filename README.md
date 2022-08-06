@@ -42,4 +42,51 @@
 备注：主要是后端服务，所以例子是由控制台进行输出输入
 
 --------------------------
+用户客户端登陆
+<br/>
+<div align=center><img src="https://github.com/nacey5/netty-project/blob/master/images/Socket_Chat_%E5%AE%A2%E6%88%B7%E7%AB%AF%E7%99%BB%E9%99%86%E6%88%90%E5%8A%9F.png"></div>
 
+
+登陆成功的解析协议
+<br>
+<div align=center><img src="https://github.com/nacey5/netty-project/blob/master/images/Socket_Chat_%E7%99%BB%E9%99%86%E6%88%90%E5%8A%9F%E7%9A%84%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90%E5%BA%8F%E5%88%97.png"></div>
+
+第二用户接收到的消息
+<br/>
+<div align=center><img src="https://github.com/nacey5/netty-project/blob/master/images/Socket_Chat_%E7%AC%AC%E4%BA%8C%E4%B8%AA%E7%94%A8%E6%88%B7%E6%8E%A5%E6%94%B6%E5%88%B0%E7%9A%84%E6%B6%88%E6%81%AF.png"></div>
+
+p2p服务器解析协议
+<br>
+<div align=center><img src="https://github.com/nacey5/netty-project/blob/master/images/Socket_Chat_p2p%E6%B6%88%E6%81%AF%E5%9C%A8%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90.png"></div>
+
+创建群聊成功
+<br>
+<div align=center><img src="https://github.com/nacey5/netty-project/blob/master/images/Socket_Chat_%E7%BE%A4%E8%81%8A%E5%88%9B%E5%BB%BA%E8%80%85%E5%88%9B%E5%BB%BA%E7%BE%A4%E8%81%8A%E6%88%90%E5%8A%9F.png"></div>
+
+其他用户接收到被拉入群聊的消息
+<br>
+<div align=center><img src="https://github.com/nacey5/netty-project/blob/master/images/Socket_Chat_%E5%85%B6%E4%BB%96%E7%94%A8%E6%88%B7%E6%8E%A5%E6%94%B6%E5%88%B0%E8%A2%AB%E6%8B%89%E5%85%A5%E7%9A%84%E6%B6%88%E6%81%AF.png"></div>
+
+服务端接收到群聊创建的解析协议
+<br>
+<div align=center><img src="https://github.com/nacey5/netty-project/blob/master/images/Socket_Chat_%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8E%A5%E6%94%B6%E5%88%B0%E7%9A%84%E7%BE%A4%E8%81%8A%E5%88%9B%E5%BB%BA%E6%88%90%E5%8A%9F%E7%9A%84%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90.png"></div>
+
+非群聊用户加入群聊消息
+<br>
+<div align=center><img src="https://github.com/nacey5/netty-project/blob/master/images/Socket_Chat_%E9%9D%9E%E7%BE%A4%E8%81%8A%E7%94%A8%E6%88%B7%E5%8A%A0%E5%85%A5%E7%BE%A4%E8%81%8A%E6%B6%88%E6%81%AF.png"></div>
+
+非群聊用户加入群聊群聊用户接收到的消息
+<br>
+<div align=center><img src="https://github.com/nacey5/netty-project/blob/master/images/Socket_Chat_%E9%9D%9E%E7%BE%A4%E8%81%8A%E7%94%A8%E6%88%B7%E5%8A%A0%E5%85%A5%E7%BE%A4%E8%81%8A%E7%94%A8%E6%88%B7%E6%8E%A5%E6%94%B6%E7%9A%84%E6%B6%88%E6%81%AF.png"></div>
+
+用户发送群聊消息
+<br>
+<div align=center><img src="https://github.com/nacey5/netty-project/blob/master/images/Socket_Chat_%E7%94%A8%E6%88%B7%E5%8F%91%E9%80%81%E7%BE%A4%E8%81%8A%E6%B6%88%E6%81%AF.png"></div>
+
+群聊消息发送时的服务器解析协议
+<br>
+<div align=center><img src="https://github.com/nacey5/netty-project/blob/master/images/Socket_Chat_%E7%BE%A4%E8%81%8A%E6%B6%88%E6%81%AF%E5%8F%91%E9%80%81%E7%9A%84%E6%97%B6%E5%80%99%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%8D%8F%E8%AE%AE%E8%A7%A3%E6%9E%90.png"></div>
+
+心跳检测
+<br>
+<div align=center><img src="https://github.com/nacey5/netty-project/blob/master/images/Socket_Chat_%E5%BF%83%E8%B7%B3%E6%A3%80%E6%B5%8B.png"></div>
